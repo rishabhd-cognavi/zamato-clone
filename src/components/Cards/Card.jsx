@@ -55,7 +55,6 @@ export function Card({ image, name, description, price, offer, onClickCard }) {
             justifyContent: "space-between",
             color: "#ababab",
             overflow: "hidden",
-            display: "-webkit-flex",
           }}>
           <div
             style={{
