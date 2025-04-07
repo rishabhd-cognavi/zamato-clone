@@ -1,5 +1,5 @@
-import { Filter } from "../filter";
-import { Restaurant } from "./Restaurant";
+import { Filter } from "../components/filter/Filter";
+import { Restaurant } from "../components/home";
 
 export function Home() {
   return (
@@ -13,8 +13,7 @@ export function Home() {
             fontSize: "1.125rem",
             lineHeight: "1.75rem",
             fontWeight: "600",
-          }}
-        >
+          }}>
           Food Delivery Restaurants in Delhi NCR
         </h2>
         <Restaurant />

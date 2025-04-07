@@ -1,6 +1,6 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import { Cart } from "../Cart";
-import { Home } from "../home";
+import { Cart } from "../../pages/Cart";
+import { Home } from "../../pages/Home";
 import { Navigation } from "../navigation";
 
 export function AppRouter() {

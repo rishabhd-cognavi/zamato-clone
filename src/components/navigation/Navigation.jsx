@@ -1,6 +1,7 @@
 import { useNavigate, useNavigation } from "react-router-dom";
 import { CiUser } from "react-icons/ci";
 import { LuShoppingCart } from "react-icons/lu";
+import { SearchBar } from "../SearchBar/SearchBar";
 export function Navigation() {
   const nav = useNavigate();
 
@@ -15,12 +16,12 @@ export function Navigation() {
         justifyContent: "space-between",
         alignItems: "center",
         backgroundColor: "white",
-      }}
-    >
+        borderBottom: "1px solid #f2f4f5",
+      }}>
       <div style={{ fontWeight: "700", fontSize: "2rem" }} onClick={home}>
         Zomato
       </div>
-      <div>Search bar</div>
+      <SearchBar />
 
       <div style={{ display: "flex", gap: "2rem" }}>
         <LuShoppingCart
